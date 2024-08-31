@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <style>
+        body{
+            background-color: #aaa;
+           
+        }
+        .div1{
+            position: absolute;
+            margin-top: 20px;
+            border: 2px solid #e40a11;
+            background-color: #040000;
+            height: 50px;
+            width: 50px;
+            top: 60px;
+            right: 40%;
+        }
+        #div{
+            position: absolute;
+            margin-top: 20px ;
+            margin-left: 20px;
+            border: 2px solid #040000;
+            background-color: #220303;
+            padding: 10px;
+            height: 300px;
+            width: 300px;
+            
+        }
+        div img{
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        div h1{
+            display: inline;
+            color: white;
+            font-family: 'Courier New', Courier, monospace;
+    
+
+        }
+        div h1 span{
+        color: #e40a11;
+        }
+        div p{
+            
+           color: antiquewhite;
+           margin: auto;
+           margin-left:30px;
+        }    
+        .mae {
+            margin: 10px;
+            height: 400px;
+            background-color: #374141;
+            border: 2px solid #e40a11;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Meu Titulo</h1>
+    <h2>Converter Dólar</h2>
+    <label for="Number">Digite um valor Qualquer:</label>
+    <input size="10" type="number" placeholder="Valor" required >
+    <button  onclick="converter()">Conventer</button>
+<div class="mae">
+    <div id="div">
+        <div class="div1">
+            <img src="./logo.png" alt="">
+            <h1>Html Pu<span>ro</span></h1>
+        </div>
+             <p>linguagens de Marcação de hiper Texto</p>   
+     </div>
+</div>
+</body>
+    <script src="dom01.js"></script>
+</html>  
